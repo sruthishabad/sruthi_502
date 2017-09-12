@@ -43,6 +43,8 @@ public class StudentGroup implements StudentArrayOperation {
 		catch{
 			System.out.println(e.getMessage());
 		}
+		else
+			return null;
 	}
 
 	@Override
@@ -55,6 +57,7 @@ public class StudentGroup implements StudentArrayOperation {
 		catch{
 			System.out.println(e.getMessage());
 		}
+		else
 		return null;
 	}
 
