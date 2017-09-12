@@ -26,7 +26,6 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudents() {
 		// Add your implementation here
-		Scanner sc=new Scanner(System.in);
 		if(students.length!=0)
 			return Students;
 		else
@@ -50,7 +49,7 @@ public class StudentGroup implements StudentArrayOperation {
 		// Add your implementation here
 		try {
 		if(index<0 || index>=students.length)
-			throw new IllegalArgumentException(" ");
+			throw new IllegalArgumentException("no details");
 		}
 		catch{
 			System.out.println(e.getMessage());
