@@ -36,29 +36,21 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudents(Student[] students) {
 		// Add your implementation here
-		try {
+		try 
 		if(students==NULL)
 			throw new IllegalArgumentException("no details");
-		}
-		catch{
+		catch
 			System.out.println(e.getMessage());
-		}
-		else
-			return null;
 	}
 
 	@Override
 	public Student getStudent(int index) {
 		// Add your implementation here
-		try {
+		try 
 		if(index<0 || index>=students.length)
 			throw new IllegalArgumentException("no details");
-		}
-		catch{
+		catch
 			System.out.println(e.getMessage());
-		}
-		else
-		return null;
 	}
 
 	@Override
